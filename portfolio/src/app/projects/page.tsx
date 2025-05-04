@@ -2,7 +2,6 @@
 // Server Components can fetch data directly and don't need useState or useEffect
 
 import Image from 'next/image'; // Next.js Image component for optimized images
-import Link from 'next/link'; // Next.js Link component for client-side navigation
 import { supabase } from '../../../lib/supabaseClient';
 
 // Define the shape of a project object
