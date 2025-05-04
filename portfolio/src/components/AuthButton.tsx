@@ -32,7 +32,7 @@ export default function AuthButton() {
     await supabase.auth.signInWithOAuth({
       provider: 'github',
       options: {
-        redirectTo: 'https://portfolio-zeta-azure-37.vercel.app' // Your Vercel URL
+        redirectTo: 'https://portfolio-o13d93ogz-stanislawais-projects.vercel.app'
       }
     });
   };
