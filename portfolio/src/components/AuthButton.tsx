@@ -32,8 +32,7 @@ export default function AuthButton() {
     await supabase.auth.signInWithOAuth({
       provider: 'github',
       options: {
-        // No need for complex redirects - Supabase handles this automatically!
-        redirectTo: window.location.origin
+        redirectTo: 'https://portfolio-zeta-azure-37.vercel.app' // Your Vercel URL
       }
     });
   };
